@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = Gem::Requirement.new(">= 1.9.2")
 
-  gem.add_dependency('activesupport')
+  gem.add_dependency('activesupport','~> 3.2.9')
   gem.add_dependency('actionpack')
   gem.add_dependency('tilt')
   gem.add_dependency('haml')
