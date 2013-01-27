@@ -3,7 +3,7 @@ module GitStats
 end
 
 require 'active_support/all'
-require 'action_pack'
+require 'actionpack'
 require 'action_view'
 require 'fileutils'
 require 'tilt'
